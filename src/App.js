@@ -1,23 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
+import BasicGrid from './component/header';
+import Navigation from './component/navigation';
+import Slider from './component/slider';
+import Carddesign from './component/card'
+import Maincard from './component/maincard';
+import Content from './component/content';
+import Service from './component/service';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+<BasicGrid/>
+<Navigation/>
+<Slider/>
+<Carddesign />
+<Maincard/>
+<Content/>
+<Service/>
     </div>
   );
 }
